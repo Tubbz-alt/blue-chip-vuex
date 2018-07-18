@@ -1,7 +1,7 @@
 {
-  "name": "blue-chip-react-state",
-  "version": "0.1.0",
-  "description": "React state adapter for BlueChip",
+  "name": "@blue-chip/vuex-adapter",
+  "version": "0.2.0",
+  "description": "Vuex adapter for BlueChip",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.umd.js",
@@ -12,9 +12,7 @@
     "dev": "rollup -c -w",
     "babel": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
-  "keywords": [
-    "react"
-  ],
+  "keywords": ["vue", "vuex"],
   "author": "mfpiccolo",
   "license": "MIT",
   "dependencies": {
